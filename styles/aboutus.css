@@ -78,6 +78,12 @@ header {
 
 /* Own content */
 
+.first__wrapper, .second__wrapper, .third__wrapper {
+    padding: 30px;
+    border: 2px solid #CECECE; 
+    border-radius: 10px; 
+}
+
 .head__first, .head__second, .head__third {
     font-family: "caprasimo", static; 
     font-weight: 400;
@@ -103,6 +109,7 @@ header {
     letter-spacing: 0.25px;
     max-width: 600px; 
     width: 100%;
+   
 }
 
 .info__first, .info__third {
@@ -115,7 +122,7 @@ header {
 
 .first__section {
     width: 100%; 
-    min-height: 400px;
+    min-height: 600px;
     height: 100%;
     background-color: #fff;
     display: flex;
@@ -124,7 +131,7 @@ header {
 }
 
 .img__first {
-    max-width: 300px;
+    max-width: 400px;
     width: 100%; 
 }
 .read-more {
@@ -153,7 +160,7 @@ header {
 
 .second__section {
     width: 100%; 
-    min-height: 400px;
+    min-height: 600px;
     height: 100%;
     background-color: #444444;
     display: flex;
@@ -164,7 +171,7 @@ header {
 
 .third__section {
     width: 100%; 
-    min-height: 400px;
+    min-height: 600px;
     height: 100%;
     background-color: #fff;
     display: flex;
@@ -172,8 +179,10 @@ header {
     align-items: center; 
 }
 
-
-
+.img__third {
+    max-width: 400px;
+    width: 100%; 
+}
 
 
 /* Footer */
