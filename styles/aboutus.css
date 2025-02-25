@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    min-height: 100vh;
+    max-width: 100vw;
+}
+
+/* Header with logo and nav */ 
+header {
+    background-color: #7ba376;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;   
+    min-height: 88px;
+    height: 100%;
+    padding-left: 140px; 
+    padding-right: 140px;
+}
+
+.logo__header {
+    display: flex; 
+    justify-self: flex-start;
+    font-family: "orbitron", serif; 
+    font-weight: bold;
+    font-size: 30px; 
+    color: #fff; 
+
+}
+
+.navbar li {
+    display: inline-block;
+    position: relative; 
+    text-decoration: none; 
+    list-style: none; 
+    color: #fff;
+    text-align: left;
+    font-size: 18px;
+    font-family: arial, sans-serif; 
+    font-style: normal; 
+    letter-spacing: 0.43px;;
+    line-height: 21px;
+    margin-left: 60px;
+}
+
+.navbar li a {
+    display: inline-block;
+    position: relative; 
+    text-decoration: none; 
+    list-style: none; 
+    color: #fff;
+    text-align: left;
+    font-size: 18px;
+    font-family: arial, sans-serif; 
+    font-style: normal; 
+    line-height: 21px;
+}
+
+.navbar li::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff; 
+    transform-origin: bottom center;
+    transition: transform 0.4s ease-out; 
+}
+
+.navbar li:hover::after {
+    transform: scaleX(1); 
+    transform-origin: bottom center;
+}
+
+
+
+/* Own content */
+
+.own {
+    width: 500px;
+    height: 400px; 
+}
+
+
+
+
+
+/* Footer */
+.footer__container {
+    background-color: #7ba376;
+    min-height: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline; 
+    padding-left: 140px; 
+    padding-right: 140px;
+
+}
+
+.footer__list li, .footer__list li a {
+    font-family: arial, sans-serif; 
+    font-size: 18px; 
+    color: #fff; 
+    text-decoration: none; 
+    list-style: none; 
+}
+
+.footer__list li a:hover {
+    color: #5A5274;
+    /* Have not decided on this, using purple for now */ 
+}
+
+.footer__label {
+    font-family: arial, sans-serif; 
+    font-weight: bold; 
+    font-size: 18px;
+    color: #fff; 
+}
+
+p {
+    font-family: arial, sans-serif; 
+    font-style: normal; 
+    font-size: 18px; 
+    line-height: 21px;
+    color: #fff; 
+}
+
+.logo__footer {
+    display: flex; 
+    align-content: center; 
+    font-family: "orbitron", serif; 
+    font-weight: bold;
+    font-size: 30px; 
+    color: #fff; 
+}
