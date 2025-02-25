@@ -78,12 +78,77 @@ header {
 
 /* Own content */
 
-.own {
-    width: 500px;
-    height: 400px; 
+.head__first, .head__second, .head__third, .head__fourth {
+    font-family: "caprasimo", static; 
+    font-weight: 400;
+    font-size: 50px;
+    max-width: 685px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.head__first, .head__third {
+    color: #5A5274;
+}
+
+.head__second, .head__fourth {
+    color: #fff;
+}
+
+.info__first, .info__second, .info__third, .info__fourth {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: none;
+    font-size: 18px; 
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    max-width: 600px; 
+    width: 100%;
+}
+
+.info__first, .info__third {
+    color: #000; 
+}
+
+.info__second, .info__fourth {
+    color: #fff;
+}
+
+.first__section {
+    width: 100%; 
+    min-height: 400px;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.img__first {
+    max-width: 300px;
+    width: 100%; 
+}
+
+.second__section {
+    width: 100%; 
+    min-height: 400px;
+    height: 100%;
+    background-color: #444444;
 }
 
 
+.third__section {
+    width: 100%; 
+    min-height: 400px;
+    height: 100%;
+    background-color: #fff;
+}
+
+.fourth__section {
+    width: 100%; 
+    min-height: 400px;
+    height: 100%;
+    background-color: #444444;
+}
 
 
 
