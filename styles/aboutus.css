@@ -127,6 +127,28 @@ header {
     max-width: 300px;
     width: 100%; 
 }
+.read-more {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7BA376;
+    height:54px;
+    width:227px;
+    border-radius:4px;
+    border-style: none;
+    color:#ffffff;
+    font-size:16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    line-height:auto;
+}
+
+.read-more:hover {
+    background-color: #5A5274;
+    color: #fff;
+}
+
 
 .second__section {
     width: 100%; 
