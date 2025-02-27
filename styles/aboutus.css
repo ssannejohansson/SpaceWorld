@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    min-height: 100vh;
+    max-width: 100vw;
+}
+
+/* Header with logo and nav */ 
+header {
+    background-color: #7ba376;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;   
+    min-height: 88px;
+    height: 100%;
+    padding-left: 140px; 
+    padding-right: 140px;
+}
+
+.logo__header {
+    display: flex; 
+    justify-self: flex-start;
+    font-family: "orbitron", serif; 
+    font-weight: bold;
+    font-size: 30px; 
+    color: #fff; 
+
+}
+
+.navbar li {
+    display: inline-block;
+    position: relative; 
+    text-decoration: none; 
+    list-style: none; 
+    color: #fff;
+    text-align: left;
+    font-size: 18px;
+    font-family: arial, sans-serif; 
+    font-style: normal; 
+    letter-spacing: 0.43px;;
+    line-height: 21px;
+    margin-left: 60px;
+}
+
+.navbar li a {
+    display: inline-block;
+    position: relative; 
+    text-decoration: none; 
+    list-style: none; 
+    color: #fff;
+    text-align: left;
+    font-size: 18px;
+    font-family: arial, sans-serif; 
+    font-style: normal; 
+    line-height: 21px;
+}
+
+.navbar li::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff; 
+    transform-origin: bottom center;
+    transition: transform 0.4s ease-out; 
+}
+
+.navbar li:hover::after {
+    transform: scaleX(1); 
+    transform-origin: bottom center;
+}
+
+
+
+/* Own content */
+
+.first__wrapper, .second__wrapper, .third__wrapper {
+    padding: 30px;
+}
+
+.head__first, .head__second, .head__third {
+    font-family: "caprasimo", static; 
+    font-weight: 400;
+    font-size: 30px;
+    max-width: 685px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.head__first, .head__third {
+    color: #5A5274;
+}
+
+.head__second {
+    color: #fff;
+}
+
+.info__first, .info__second, .info__third {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: none;
+    font-size: 18px; 
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    max-width: 600px; 
+    width: 100%;
+   
+}
+
+.info__first, .info__third {
+    color: #000; 
+}
+
+.info__second {
+    color: #fff;
+}
+
+.first__section {
+    width: 100%; 
+    min-height: 600px;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center; 
+}
+
+.img__first {
+    max-width: 400px;
+    width: 100%; 
+}
+.read-more {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7BA376;
+    height:54px;
+    width:227px;
+    border-radius:4px;
+    border-style: none;
+    color:#ffffff;
+    font-size:16px;
+    box-shadow: 0 3px 6px #00000029;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    line-height: auto;
+}
+
+.read-more:hover {
+    background-color: #5A5274;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.second__section {
+    width: 100%; 
+    min-height: 600px;
+    height: 100%;
+    background-color: #444444;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center; 
+}
+
+
+.third__section {
+    width: 100%; 
+    min-height: 600px;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center; 
+}
+
+.img__third {
+    max-width: 400px;
+    width: 100%; 
+}
+
+
+/* Footer */
+.footer__container {
+    background-color: #7ba376;
+    min-height: 68px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 140px; 
+    padding-right: 140px;
+
+}
+
+.footer__list li, .footer__list li a {
+    font-family: arial, sans-serif; 
+    font-size: 18px; 
+    color: #fff; 
+    text-decoration: none; 
+    list-style: none; 
+}
+
+.footer__list li:hover {
+    transform: scale(1.1);
+    font-weight:bold; 
+}
+
+.footer__label {
+    font-family: arial, sans-serif; 
+    font-weight: bold; 
+    font-size: 18px;
+    color: #fff; 
+}
+
+.icons {
+    margin: auto;
+font-size: 40px;
+color: #fff;
+}
+
+.fa-square-instagram:hover, .fa-square-facebook:hover, .fa-square-x-twitter:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+p {
+    font-family: arial, sans-serif; 
+    font-style: normal; 
+    font-size: 18px; 
+    line-height: 21px;
+    color: #fff; 
+}
+
+.logo__footer {
+    display: flex; 
+    align-content: center; 
+    font-family: "orbitron", serif; 
+    font-weight: bold;
+    font-size: 30px; 
+    color: #fff; 
+}
