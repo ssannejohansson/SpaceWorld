@@ -142,8 +142,27 @@ body {
      width: 100%;
      transition: border-color 0.3s ease
  }
+.select-ticket {
+    width: 100%;
+}
+.select-wrapper {
+    position: relative;
+    display: flex;
+}
 .form-select {
-     -webkit-animation: none;
+    -webkit-appearance: none; /* Remove default arrow on Webkit browsers */
+    -moz-appearance: none; /* Remove default arrow on Firefox */
+    appearance: none;
+    padding-right: 40px;
+}
+.arrow-icon {
+    position: absolute; /* Position it over the select */
+    right: 10px; /* Adjust based on your design */
+    top: 40%; /* Align it vertically to the center */
+    transform: translateY(-50%); /* Center it vertically */
+    pointer-events: none; /* Ensure clicks go through to the select */
+    color: #5A5274; /* Match the color to your form styles */
+    font-size: 18px;
 }
 .form-textarea {
      width: 100%;
