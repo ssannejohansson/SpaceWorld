@@ -152,12 +152,12 @@ body {
 .form-select {
     -webkit-appearance: none; /* Remove default arrow on Webkit browsers */
     -moz-appearance: none; /* Remove default arrow on Firefox */
-    appearance: none;
+    appearance: none; /* Remove default arrow on other browsers */
     padding-right: 40px;
 }
 .arrow-icon {
     position: absolute; /* Position it over the select */
-    right: 10px; /* Adjust based on your design */
+    right: 20px; /* Adjust based on your design */
     top: 40%; /* Align it vertically to the center */
     transform: translateY(-50%); /* Center it vertically */
     pointer-events: none; /* Ensure clicks go through to the select */
