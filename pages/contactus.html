@@ -31,14 +31,15 @@
                <div class="container">
                 <form>
                    <label for="full-name">Full Name:</label>
-                   <input type="text" id="full-name" required>
+                   <input type="text" id="full-name" class="form-input" required>
                    
                    <label for="email">Email:</label>
-                   <input type="email" id="email" placeholder="Your Email" required>
+                   <input type="email" id="email" class="form-input" placeholder="Your Email" required>
                    
                    <div class="select-ticket">
                        <label for="ticket">Select your desired package:</label>
-                       <select name="products" id="ticket">  
+                       <i class="fa-solid fa-chevron-down"></i>
+                       <select name="products" id="ticket" class="form-select">  
                            <option value="daypass-ticket">Day pass ticket</option>
                            <option value="season-ticket" selected>Season ticket</option>
                            <option value="accommodation-package">Accommodation package</option>
@@ -47,12 +48,12 @@
                    
                    <div class="calendar-container">
                        <label for="calendar">Pick your visit date!</label>
-                       <input type="date" id="calendar">
+                       <input type="date" id="calendar" class="form-input">
                        <!-- <button type="submit">Confirm Date</button> -->
                    </div>
                    
                    <label for="message">Message</label>
-                   <textarea name="message" id="message" placeholder="Enter your message" rows="4"></textarea>
+                   <textarea name="message" id="message" class="form-textarea" placeholder="Enter your message" rows="4"></textarea>
                    
                    <button type="submit">SUBMIT</button>
                 </form>
