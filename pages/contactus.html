@@ -24,6 +24,78 @@
             </ul>
         </nav>
     </header>
-    
+    <main>
+        <div class="content-wrapper">
+           <h2>Embark on an intergalactic adventure with our friendly alien crew!</h2>
+           <div class="main-content">
+               <div class="container">
+                <form>
+                   <label for="full-name">Full Name:</label>
+                   <input type="text" id="full-name" required>
+                   
+                   <label for="email">Email:</label>
+                   <input type="email" id="email" placeholder="Your Email" required>
+                   
+                   <div class="select-ticket">
+                       <label for="ticket">Select your desired package:</label>
+                       <select name="products" id="ticket">  
+                           <option value="daypass-ticket">Day pass ticket</option>
+                           <option value="season-ticket" selected>Season ticket</option>
+                           <option value="accommodation-package">Accommodation package</option>
+                       </select>
+                   </div>
+                   
+                   <div class="calendar-container">
+                       <label for="calendar">Pick your visit date!</label>
+                       <input type="date" id="calendar">
+                       <!-- <button type="submit">Confirm Date</button> -->
+                   </div>
+                   
+                   <label for="message">Message</label>
+                   <textarea name="message" id="message" placeholder="Enter your message" rows="4"></textarea>
+                   
+                   <button type="submit">SUBMIT</button>
+                </form>
+               </div>
+               <div class="alien-image">
+               <img src="images/contactus/alien-ship.svg" alt="Space Ship Illustration">
+               </div>
+           </div>
+        </div>
+    </main>
+    <footer> 
+        <div class="footer__container">
+            <section>
+                <ul class="footer__list">
+                    <p class="footer__label">Information</p>
+                    <li><a href="#">Tickets</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </section>
+       
+            <section>
+                    <p class="footer__label">Opening Hours:</p>
+                    <p>10 am - 11 pm
+                    </p>
+            </section>
+       
+            <section>
+                <p class="footer__label">Contact:</p>
+                <p>info@alienworld.com
+                </p>
+            </section>
+       
+            <section>
+                <p class="footer__label">Follow Us:</p>
+                <section>
+                <p class="icons">
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-square-x-twitter"></i></p>
+            </section>
+        </section>
+        </div>
+    </footer>
 </body>
 </html>
