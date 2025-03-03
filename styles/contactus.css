@@ -11,6 +11,7 @@ body {
  header {
      position: sticky;
      top: 0;
+     z-index: 1;
      background-color: #7ba376;
      display: flex; 
      justify-content: space-between;
@@ -212,6 +213,7 @@ body {
      display: flex;
      justify-content: center;
      align-items: center;
+
  }
  .alien-image img {
     width: 100%;
