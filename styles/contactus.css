@@ -226,7 +226,6 @@ body {
  }
  img {
     transition: transform 0.5s ease, opacity 0.5s ease;
-    /* animation: fadeInTopRight 1s ease-in-out, scaleUp 1s ease-in-out forwards; */
 }
 img {
     -webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
