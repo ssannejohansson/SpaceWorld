@@ -94,6 +94,7 @@ body {
      flex-direction: column;
      align-items: center; /* Center content */
      justify-content: center; /* Center content vertically */
+     overflow: hidden;
  }
  .main-content {
      padding: 20px;
@@ -160,6 +161,8 @@ body {
     position: absolute; /* Position it over the select */
     right: 20px; /* Adjust based on your design */
     top: 40%; /* Align it vertically to the center */
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
     transform: translateY(-50%); /* Center it vertically */
     pointer-events: none; /* Ensure clicks go through to the select */
     color: #5A5274; /* Match the color to your form styles */
@@ -221,6 +224,23 @@ body {
     height: auto;
  /* margin-left: 50px ; */
  }
+ img {
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    /* animation: fadeInTopRight 1s ease-in-out, scaleUp 1s ease-in-out forwards; */
+}
+img {
+    -webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
+    transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
+    -o-transition: transform 0.5s ease, opacity 0.5s ease;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    transition: transform 0.5s ease, opacity 0.5s ease, -webkit-transform 0.5s ease;
+}
+img:hover {
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
+    opacity: 0.9; /* slightly fades out on hover */
+}
  footer {
      width: 100%; /* Ensures footer spans the full width of the viewport */
      background-color: #7ba376; /* Keeps it consistent with the header */
