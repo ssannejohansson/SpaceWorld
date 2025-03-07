@@ -35,7 +35,7 @@ body {
     color: #fff;
     text-align: left;
     font-size: 18px;
-    font-family: arial, sans-serif; 
+    font-family: "roboto", sans-serif; 
     font-style: normal; 
     letter-spacing: 0.43px;;
     line-height: 21px;
@@ -50,7 +50,7 @@ body {
     color: #fff;
     text-align: left;
     font-size: 18px;
-    font-family: arial, sans-serif; 
+    font-family: "roboto", sans-serif; 
     font-style: normal; 
     line-height: 21px;
 }
@@ -99,7 +99,7 @@ body {
 }
 
 .info__first, .info__second, .info__third {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "roboto", sans-serif;
     font-style: none;
     font-size: 18px; 
     line-height: 28px;
@@ -145,7 +145,7 @@ body {
     color:#ffffff;
     font-size:16px;
     box-shadow: 0 3px 6px #00000029;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "roboto", sans-serif;
     font-style: normal;
     line-height: auto;
 }
@@ -200,7 +200,7 @@ body {
 }
 
 .footer__list li, .footer__list li a {
-    font-family: arial, sans-serif; 
+    font-family: "roboto", sans-serif; 
     font-size: 18px; 
     line-height: 23px;
     color: #fff; 
@@ -215,7 +215,7 @@ body {
 }
 
 .footer__label {
-    font-family: arial, sans-serif; 
+    font-family: "roboto", sans-serif; 
     font-weight: bold; 
     font-size: 18px;
     margin-bottom: 10px;
@@ -234,7 +234,7 @@ color: #fff;
 }
 
 .footer__info {
-    font-family: arial, sans-serif; 
+    font-family: "roboto", sans-serif; 
     font-style: normal; 
     font-size: 18px; 
     line-height: 21px;
