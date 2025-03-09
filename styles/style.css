@@ -173,4 +173,67 @@ img:hover {
     border-radius: 4px;
     border-color: white;
     border-style: solid 2px;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/* Footer */
+.footer__container {
+    background-color: #7ba376;
+    min-height: 68px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 140px; 
+    padding-right: 140px;
+
+}
+
+.footer__list li, .footer__list li a {
+    font-family: arial, sans-serif; 
+    font-size: 18px; 
+    color: #fff; 
+    text-decoration: none; 
+    list-style: none; 
+}
+
+.footer__list li:hover {
+    transform: scale(1.1);
+    font-weight:bold; 
+}
+
+.footer__label {
+    font-family: arial, sans-serif; 
+    font-weight: bold; 
+    font-size: 18px;
+    color: #fff; 
+}
+
+.icons {
+    margin: auto;
+font-size: 40px;
+color: #fff;
+}
+
+.fa-square-instagram:hover, .fa-square-facebook:hover, .fa-square-x-twitter:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+p {
+    font-family: arial, sans-serif; 
+    font-style: normal; 
+    font-size: 18px; 
+    line-height: 21px;
+    color: #fff; 
+}
+
+.logo__footer {
+    display: flex; 
+    align-content: center; 
+    font-family: "orbitron", serif; 
+    font-weight: bold;
+    font-size: 30px; 
+    color: #fff; 
+}
