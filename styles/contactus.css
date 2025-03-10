@@ -1,7 +1,8 @@
 body {
      min-height: 100vh;
-     max-width: 100vw;
+     max-width: 100%;
      margin: 0;
+     padding: 0;
      display: flex;
      flex-direction: column;
      justify-content: space-between;
@@ -19,11 +20,7 @@ body {
      min-height: 88px;
      width: 100%;
      padding: 0 20px;
-     /* padding-left: 140px; 
-     padding-right: 140px; */
      box-sizing: border-box;
-     /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); maybe fo better visibility
-     z-index: 1000; this is to ensure that header is above other content - nedded? */
  }
  .logo__header {
      display: flex; 
@@ -31,8 +28,13 @@ body {
      font-family: "orbitron", serif; 
      font-weight: bold;
      font-size: 30px; 
+     /* font-size: 2rem; Using rem for responsive size */
      color: #fff; 
  }
+ .navbar {
+    display: flex; /* Ensure navbar items are in a row */
+    align-items: center; /* Align vertically in the center */
+}
  .navbar li {
      display: inline-block;
      position: relative; 
@@ -44,20 +46,12 @@ body {
      font-family: "Roboto", serif;
      font-style: normal; 
      letter-spacing: 0.43px;
-     line-height: 21px;
-     margin-left: 60px;
+     line-height: 1.5;
+     margin-left: 2rem;
  }
  .navbar li a {
-     display: inline-block;
-     position: relative; 
-     text-decoration: none; 
-     list-style: none; 
-     color: #fff;
-     text-align: left;
-     font-size: 18px;
-     font-family: "Roboto", serif;
-     font-style: normal; 
-     line-height: 21px;
+    text-decoration: none;
+    color: #fff;
  }
  .navbar li::after {
      content: '';
@@ -80,6 +74,7 @@ body {
  h2 {
      text-align: center;
      width: 100%;
+     padding: 5px;
      margin-top: 80px;
      margin-bottom: 80px;
      font-family: "caprasimo", static; 
@@ -100,7 +95,7 @@ body {
      max-width: 1600px;
      width: 100%;
      display: flex;
-     justify-content: space-around;
+     justify-content: space-between;
      align-items: flex-start;
      margin: 0 auto;
      flex-grow: 1;
@@ -108,7 +103,7 @@ body {
  }
  .container {
      max-width: 50%;
-     margin-right: 20px;
+     /* margin-right: 20px; */
      flex-grow: 1;
  }
  form {
@@ -209,18 +204,16 @@ body {
      background-color: #5A5274;
  }
  .alien-image {
-     flex-grow: 1;
      max-width: 50%;
      display: flex;
      justify-content: center;
      align-items: center;
-
+     flex-grow: 1;
  }
  .alien-image img {
     width: 100%;
     max-width: 600px;
     height: auto;
- /* margin-left: 50px ; */
  }
  img {
     transition: transform 0.5s ease, opacity 0.5s ease;
@@ -247,16 +240,18 @@ img:hover {
      background-color: #7ba376;
      min-height: 68px;
      width: 100%;
-     max-width: 100vw;
+     max-width: 1200px;
+     margin: auto;
      display: flex;
      justify-content: space-between;
      align-items: baseline; 
-     padding-top: 10px;
+     padding: 10px;
+     /* padding-top: 10px;
      padding-bottom: 10px;
      padding-left: 140px; 
      padding-right: 140px;
      position: relative;
-     bottom: 0;
+     bottom: 0; */
      box-sizing: border-box;
  }
  
@@ -307,4 +302,6 @@ img:hover {
      font-size: 30px; 
      color: #fff; 
  }
+
+ 
  
