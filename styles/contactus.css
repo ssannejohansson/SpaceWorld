@@ -28,12 +28,12 @@ body {
      font-family: "orbitron", serif; 
      font-weight: bold;
      font-size: 30px; 
-     /* font-size: 2rem; Using rem for responsive size */
+     /* font-size: 2rem; for responsive size */
      color: #fff; 
  }
  .navbar {
-    display: flex; /* Ensure navbar items are in a row */
-    align-items: center; /* Align vertically in the center */
+    display: flex;
+    align-items: center;
 }
  .navbar li {
      display: inline-block;
@@ -85,7 +85,7 @@ body {
  .content-wrapper {
     width: 100%;
      padding: 20px;
-     flex-grow: 1; /* Allow content to grow and take remaining space */
+     flex-grow: 1;
      display: flex;
      flex-direction: column;
      overflow: hidden;
@@ -103,7 +103,6 @@ body {
  }
  .container {
      max-width: 50%;
-     /* margin-right: 20px; */
      flex-grow: 1;
  }
  form {
@@ -145,20 +144,20 @@ body {
     display: flex;
 }
 .form-select {
-    -webkit-appearance: none; /* Remove default arrow on Webkit browsers */
-    -moz-appearance: none; /* Remove default arrow on Firefox */
-    appearance: none; /* Remove default arrow on other browsers */
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    appearance: none; 
     padding-right: 40px;
 }
 .arrow-icon {
     position: absolute; /* Position it over the select */
-    right: 20px; /* Adjust based on your design */
-    top: 40%; /* Align it vertically to the center */
+    right: 20px; 
+    top: 40%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%); /* Center it vertically */
     pointer-events: none; /* Ensure clicks go through to the select */
-    color: #5A5274; /* Match the color to your form styles */
+    color: #5A5274;
     font-size: 18px;
 }
 .form-textarea {
@@ -177,13 +176,13 @@ body {
      transition: border-color 0.4s ease
  }
  .form-input:hover {
-    border-color: #5A5274; /* Change border color on hover */
+    border-color: #5A5274; 
 }  
 .form-select:hover {
-    border-color: #5A5274; /* Change border color on hover */
+    border-color: #5A5274; 
 }  
 .form-textarea:hover {
-    border-color: #5A5274; /* Change border color on hover */
+    border-color: #5A5274;
 }  
  button {
      border-radius: 10px;
@@ -227,13 +226,13 @@ img {
 }
 img:hover {
     -webkit-transform: scale(1.05);
-        -ms-transform: scale(1.05);
-            transform: scale(1.05);
-    opacity: 0.9; /* slightly fades out on hover */
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    opacity: 0.9;
 }
  footer {
-     width: 100%; /* Ensures footer spans the full width of the viewport */
-     background-color: #7ba376; /* Keeps it consistent with the header */
+     width: 100%;
+     background-color: #7ba376;
     
  }
  .footer__container {
