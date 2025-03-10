@@ -180,24 +180,26 @@ img:hover {
 /* Footer */
 .footer__container {
     background-color: #7ba376;
-    min-height: 68px;
+    min-height: 88px;
     height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: baseline; 
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 40px;
+    padding-bottom: 20px;
     padding-left: 140px; 
     padding-right: 140px;
 
 }
 
 .footer__list li, .footer__list li a {
-    font-family: arial, sans-serif; 
+    font-family: "roboto", sans-serif; 
     font-size: 18px; 
+    line-height: 23px;
     color: #fff; 
     text-decoration: none; 
     list-style: none; 
+    
 }
 
 .footer__list li:hover {
@@ -206,9 +208,10 @@ img:hover {
 }
 
 .footer__label {
-    font-family: arial, sans-serif; 
+    font-family: "roboto", sans-serif; 
     font-weight: bold; 
     font-size: 18px;
+    margin-bottom: 10px;
     color: #fff; 
 }
 
@@ -223,8 +226,8 @@ color: #fff;
     cursor: pointer;
 }
 
-p {
-    font-family: arial, sans-serif; 
+.footer__info {
+    font-family: "roboto", sans-serif; 
     font-style: normal; 
     font-size: 18px; 
     line-height: 21px;
