@@ -230,10 +230,12 @@ img:hover {
 
 }
 
-/*.footer__column {
+.footer__column {
     display: flex;
     flex-direction: column;
-}*/
+    margin-right: 20px;
+    flex-wrap: wrap;
+}
 
 .footer__list li, .footer__list li a {
     font-family: "roboto", sans-serif; 
