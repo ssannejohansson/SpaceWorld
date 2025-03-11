@@ -117,6 +117,7 @@ button {
     border-radius: 4px;
     background: #7BA376;
     box-shadow: 0 3px 6px #00000029;
+    margin-top: 10px;
 }
 button:hover {
     background: #5A5274;
@@ -152,9 +153,9 @@ button:hover {
   
 .card {
     display: flex;
+    gap: 20px;
     flex-wrap: wrap;
     width: 600px;
-    height: 40vh;
     margin: 20px;
     padding: 10px;
 }
