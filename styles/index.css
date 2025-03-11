@@ -114,6 +114,7 @@ button {
     border: none;
     border-radius: 4px;
     background: #7BA376;
+    box-shadow: 0 3px 6px #00000029;
 }
 button:hover {
     background: #5A5274;
@@ -129,7 +130,8 @@ section {
     align-items: center;
     min-width: 320px;
     width: 100%;
-    min-height: 800px;
+    min-height: 88px;
+    height: 100%;
     flex-wrap: wrap;
 }
   
