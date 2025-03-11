@@ -84,7 +84,7 @@ p {
     font-size: 50px;
 }
 
-h2 {
+.secondary-heading {
     color: #5A5274;
     font-size: 30px;
     font-family: Caprasimo;
@@ -123,30 +123,30 @@ button:hover {
 
 /* Startpage content */
 
-section {
+.first__section, .second__section, .third__section, .fourth__section {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     min-width: 320px;
     width: 100%;
-    min-height: 88px;
+    min-height: 500px;
     height: 100%;
     flex-wrap: wrap;
 }
   
-.first, .third {
+.first__section, .third__section {
     background-color: white;
     padding: 20px;
 }
   
-.second, .fourth {
+.second__section, .fourth__section {
     background-color: #444444;
     padding: 20px;
     color: white;
-}
-  .second h2, .fourth h2 {
-    color: white;
+    h2 {
+        color: white;
+    }
 }
   
 .card {
@@ -180,7 +180,7 @@ section {
 .spaceship {
     width: -moz-fit-content;
     width: fit-content;
-    height: 500px;
+    height: 400px;
     margin: 20px;
     animation: imgZoom 3.5s ease infinite;
 }
@@ -199,6 +199,12 @@ section {
 
 img:hover {
     animation-play-state: paused;
+}
+
+@media screen and (max-width: 1100px) {
+    .spaceship {
+        height: 300px;
+    }
 }
   
 .kang {
@@ -223,6 +229,11 @@ img:hover {
     padding-left: 140px; 
     padding-right: 140px;
 
+}
+
+.footer__column {
+    display: flex;
+    flex-direction: column;
 }
 
 .footer__list li, .footer__list li a {
