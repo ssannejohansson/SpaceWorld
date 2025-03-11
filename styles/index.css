@@ -173,7 +173,7 @@ button:hover {
 .alien {
     width: -moz-fit-content;
     width: fit-content;
-    height: 500px;
+    height: 400px;
     margin: 20px;
 }
   
@@ -231,10 +231,10 @@ img:hover {
 
 }
 
-.footer__column {
+/*.footer__column {
     display: flex;
     flex-direction: column;
-}
+}*/
 
 .footer__list li, .footer__list li a {
     font-family: "roboto", sans-serif; 
