@@ -189,7 +189,6 @@ img:hover {
     margin: 20px;
     border-radius: 4px;
     border: solid 2px white;
-    border
 }
 
 /* Footer */
@@ -217,7 +216,7 @@ img:hover {
 
 .footer__list li:hover {
     transform: scale(1.1);
-    font-weight:bold; 
+    font-weight: bold; 
 }
 
 .footer__label {
