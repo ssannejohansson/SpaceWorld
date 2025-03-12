@@ -1,0 +1,292 @@
+/* Header */
+header {
+    background-color: #7ba376;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;   
+    min-height: 88px;
+    height: 100%;
+    padding-left: 140px; 
+    padding-right: 140px;
+}
+
+.logo__header {
+    display: flex; 
+    justify-self: flex-start;
+    font-family: "orbitron", serif; 
+    font-weight: bold;
+    font-size: 30px; 
+    color: #fff; 
+
+}
+
+.navbar li {
+    display: inline-block;
+    position: relative; 
+    text-decoration: none; 
+    list-style: none; 
+    color: #fff;
+    text-align: left;
+    font-size: 18px;
+    font-family: arial, sans-serif; 
+    font-style: normal; 
+    letter-spacing: 0.43px;;
+    line-height: 21px;
+    margin-left: 60px;
+}
+
+.navbar li a {
+    display: inline-block;
+    position: relative; 
+    text-decoration: none; 
+    list-style: none; 
+    color: #fff;
+    text-align: left;
+    font-size: 18px;
+    font-family: arial, sans-serif; 
+    font-style: normal; 
+    line-height: 21px;
+}
+
+.navbar li::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff; 
+    transform-origin: bottom center;
+    transition: transform 0.4s ease-out; 
+}
+
+.navbar li:hover::after {
+    transform: scaleX(1); 
+    transform-origin: bottom center;
+}
+
+  
+body {
+    box-sizing: border-box;
+    background-color: #fff;
+    min-height: 100vh;
+    max-width: 100vw;
+}
+
+p {
+    font-size: 18px;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.primary-heading {
+    font-family: Caprasimo;
+    color: #5A5274;
+    font-size: 50px;
+}
+
+.secondary-heading {
+    color: #5A5274;
+    font-size: 30px;
+    font-family: Caprasimo;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .primary-heading {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .primary-heading {
+        font-size: 30px;
+    }
+}
+
+button {
+    text-align: center;
+    width: 227px;
+    height: 54px;
+    padding: 15px;
+    color: white;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    border-radius: 4px;
+    background: #7BA376;
+    box-shadow: 0 3px 6px #00000029;
+    margin-top: 10px;
+}
+button:hover {
+    background: #5A5274;
+    transition: all 0.4s ease-in-out;
+}
+
+/* Startpage content */
+
+.first__section, .second__section, .third__section, .fourth__section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 320px;
+    width: 100%;
+    min-height: 600px;
+    height: 100%;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+  
+.first__section, .third__section {
+    background-color: white;
+}
+  
+.second__section, .fourth__section {
+    background-color: #444444;
+    color: white;
+    h2 {
+        color: white;
+    }
+}
+  
+.card {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 600px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.info-black {
+    line-height: 26px;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.info-white {
+    line-height: 26px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.alien {
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 400px;
+    margin: 20px;
+}
+  
+.spaceship {
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 400px;
+    margin: 20px;
+    animation: imgZoom 3.5s ease infinite;
+}
+  
+@keyframes imgZoom {
+    0% {
+      transform: scale(1) rotate(0deg);
+    }
+    50% {
+      transform: scale(1.1) rotate(-10deg);
+    }
+    100% {
+      transform: scale(1) rotate(0eg);
+    }
+}
+
+img:hover {
+    animation-play-state: paused;
+}
+
+@media screen and (max-width: 1100px) {
+    .spaceship {
+        height: 300px;
+    }
+}
+  
+.kang {
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 500px;
+    margin: 20px;
+    border-radius: 4px;
+    border: solid 2px white;
+}
+
+/* Footer */
+.footer__container {
+    background-color: #7ba376;
+    min-height: 88px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline; 
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 140px; 
+    padding-right: 140px;
+
+}
+
+.footer__column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    flex-wrap: wrap;
+}
+
+.footer__list li, .footer__list li a {
+    font-family: "roboto", sans-serif; 
+    font-size: 18px; 
+    line-height: 23px;
+    color: #fff; 
+    text-decoration: none; 
+    list-style: none; 
+    
+}
+
+.footer__list li:hover {
+    transform: scale(1.1);
+    font-weight:bold; 
+}
+
+.footer__label {
+    font-family: "roboto", sans-serif; 
+    font-weight: bold; 
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff; 
+}
+
+.icons {
+    margin: auto;
+    font-size: 40px;
+    color: #fff;
+}
+
+.fa-square-instagram:hover, .fa-square-facebook:hover, .fa-square-x-twitter:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.footer__info {
+    font-family: "roboto", sans-serif; 
+    font-style: normal; 
+    font-size: 18px; 
+    line-height: 21px;
+    color: #fff; 
+}
+
+.logo__footer {
+    display: flex; 
+    align-content: center; 
+    font-family: "orbitron", serif; 
+    font-weight: bold;
+    font-size: 30px; 
+    color: #fff; 
+}
