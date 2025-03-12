@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+    <link rel="stylesheet" href="../styles/reset.css">
     <link rel="stylesheet" href="../styles/contactus.css">
-    <!-- <link rel="stylesheet" href="../styles/reset.css"> -->
+
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -13,24 +16,25 @@
     <title>Space World</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <h3 class="logo__header">SpaceWorld</h3>
     
         <nav>
             <ul class="navbar">
-            <li><a href="/pages/index.html">Home</a></li>
+            <li><a href="/index.html">Home</a></li>
             <li><a href="/pages/aboutus.html">About Us</a></li>
             <li><a href="/pages/gallery.html">Gallery</a></li>
             <li><a href="/pages/contactus.html">Contact</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
         <div class="content-wrapper">
-           <h2>Embark on an intergalactic adventure with our friendly alien crew!</h2>
+           <h2 class="contact-head">Embark on an intergalactic adventure with our friendly alien crew!</h2>
            <div class="main-content">
                <div class="container">
-                <form>
+                <form class="form">
                    <label for="full-name">Full Name:</label>
                    <input type="text" id="full-name" class="form-input" required placeholder="Your Name and Surname">
                    
@@ -62,7 +66,7 @@
                 </form>
                </div>
                <div class="alien-image animate__animated animate__fadeInTopRight animate__slow">
-               <img src="../images/contactus/alien-ship.svg" alt="Space Ship Illustration">
+               <img src="../images/contactus/alien-ship.svg" class="img" alt="Space Ship Illustration">
                </div>
            </div>
         </div>
@@ -80,13 +84,13 @@
        
             <section>
                     <p class="footer__label">Opening Hours:</p>
-                    <p>10 am - 11 pm
+                    <p class="footer__info">10 am - 11 pm
                     </p>
             </section>
        
             <section>
                 <p class="footer__label">Contact:</p>
-                <p>info@alienworld.com
+                <p class="footer__info">info@alienworld.com
                 </p>
             </section>
        
